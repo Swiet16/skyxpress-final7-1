@@ -8,7 +8,7 @@ import { Download, Printer, Edit3, Save, X } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
 import { generateInvoicePDF } from '@/utils/pdfGenerator';
-import skyxpressLogo from '@/assets/skyxpress-logo.jpg';
+import skyxpressLogo from '@/assets/skyxpress_logo.png';
 
 interface InvoiceItem {
   description: string;
