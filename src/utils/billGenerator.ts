@@ -507,6 +507,7 @@ export const generatePaymentInvoice = async (parcel: any, mode: OutputMode = 'do
   yPos += 24;
 
   // Declaration
+  yPos += 4; 
   pdf.setFontSize(7);
   pdf.setFont('helvetica', 'italic');
   pdf.setTextColor(100, 100, 100);
