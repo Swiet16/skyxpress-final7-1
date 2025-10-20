@@ -344,6 +344,7 @@ export const ParcelForm = ({ onSuccess, parcel }: ParcelFormProps) => {
             tracking_id: trackingData,
             request_status: 'pending',
             current_status: 'pending'
+            created_by: user.id
           }]);
 
         if (error) throw error;
